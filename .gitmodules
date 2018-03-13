@@ -1,0 +1,6 @@
+[submodule "dsl"]
+	path = dsl
+	url = https://github.com/ngspipes2/dsl.git
+[submodule "engine"]
+	path = engine
+	url = https://github.com/ngspipes2/engine.git

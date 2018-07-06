@@ -1,0 +1,46 @@
+rootProject.name = 'main'
+
+include ':dsl'
+project(':dsl').projectDir = new File(settingsDir, './dsl')
+
+include ':tool_descriptor'
+project(':tool_descriptor').projectDir = new File(settingsDir, './dsl/dsl_tool_descriptor')
+
+include ':tool_repository'
+project(':tool_repository').projectDir = new File(settingsDir, './dsl/dsl_tool_repository')
+
+include ':pipeline_descriptor'
+project(':pipeline_descriptor').projectDir = new File(settingsDir, './dsl/dsl_pipeline_descriptor')
+
+include ':pipeline_repository'
+project(':pipeline_repository').projectDir = new File(settingsDir, './dsl/dsl_pipeline_repository')
+
+include ':dsl_parser'
+project(':dsl_parser').projectDir = new File(settingsDir, './dsl/dsl_parser')
+
+include ':dsl_core'
+project(':dsl_core').projectDir = new File(settingsDir, './dsl/dsl_core')
+
+include ':engine'
+project(':engine').projectDir = new File(settingsDir, './engine')
+
+include ':engine_core'
+project(':engine_core').projectDir = new File(settingsDir, './engine/engine_core')
+
+include ':engine_local'
+project(':engine_local').projectDir = new File(settingsDir, './engine/engine_local')
+
+include ':share'
+project(':share').projectDir = new File(settingsDir, './share')
+
+include ':share_pipelines_server_repository'
+project(':share_pipelines_server_repository').projectDir = new File(settingsDir, './share/share_pipelines_server_repository')
+
+include ':share_tools_server_repository'
+project(':share_tools_server_repository').projectDir = new File(settingsDir, './share/share_tools_server_repository')
+
+include ':share_share_api'
+project(':share_share_api').projectDir = new File(settingsDir, './share/share_share_api')
+
+include ':share_share_client'
+project(':share_share_client').projectDir = new File(settingsDir, './share/share_share_client')

@@ -4,3 +4,7 @@
 [submodule "engine"]
 	path = engine
 	url = https://github.com/ngspipes2/engine.git
+[submodule "share"]
+	path = share
+	url = https://github.com/ngspipes2/share.git
+

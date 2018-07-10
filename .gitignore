@@ -169,3 +169,9 @@
 .idea/modules/share/share_authentication_server/share_authentication_server_main.iml
 .idea/modules/share/share_authentication_server/share_authentication_server_test.iml
 .idea/uiDesigner.xml
+.gradle/3.5-rc-2/fileContent/annotation-processors.bin
+.gradle/3.5-rc-2/fileContent/fileContent.lock
+.gradle/3.5-rc-2/taskHistory/fileHashes.bin
+.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin
+.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin
+.gradle/3.5-rc-2/taskHistory/taskHistory.bin

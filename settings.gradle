@@ -33,6 +33,9 @@ project(':engine_local').projectDir = new File(settingsDir, './engine/engine_loc
 include ':share'
 project(':share').projectDir = new File(settingsDir, './share')
 
+include ':share_core'
+project(':share_core').projectDir = new File(settingsDir, './share/share_core')
+
 include ':share_authentication_server'
 project(':share_authentication_server').projectDir = new File(settingsDir, './share/share_authentication_server')
 

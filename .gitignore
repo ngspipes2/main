@@ -180,3 +180,4 @@
 .gradle/3.4.1/taskHistory/fileHashes.bin
 .gradle/3.4.1/taskHistory/jvmClassSignatures.bin
 .idea/*
+build/*

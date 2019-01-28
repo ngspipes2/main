@@ -48,5 +48,3 @@ project(':share_tools_server_repository').projectDir = new File(settingsDir, './
 include ':share_share_api'
 project(':share_share_api').projectDir = new File(settingsDir, './share/share_share_api')
 
-include ':share_share_client'
-project(':share_share_client').projectDir = new File(settingsDir, './share/share_share_client')

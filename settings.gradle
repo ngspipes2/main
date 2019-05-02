@@ -42,12 +42,6 @@ project(':share_core').projectDir = new File(settingsDir, './share/share_core')
 include ':share_repository_facade'
 project(':share_repository_facade').projectDir = new File(settingsDir, './share/share_repository_facade')
 
-include ':share_publish_repository'
-project(':share_publish_repository').projectDir = new File(settingsDir, './share/share_publish_repository')
-
-include ':share_dynamic_repository'
-project(':share_dynamic_repository').projectDir = new File(settingsDir, './share/share_dynamic_repository')
-
 include ':share_pipelines_server_repository'
 project(':share_pipelines_server_repository').projectDir = new File(settingsDir, './share/share_pipelines_server_repository')
 
@@ -57,8 +51,3 @@ project(':share_tools_server_repository').projectDir = new File(settingsDir, './
 include ':share_share_api'
 project(':share_share_api').projectDir = new File(settingsDir, './share/share_share_api')
 
-include ':share_share_client'
-project(':share_share_client').projectDir = new File(settingsDir, './share/share_share_client')
-
-include ':share_populate'
-project(':share_populate').projectDir = new File(settingsDir, './share/share_populate')

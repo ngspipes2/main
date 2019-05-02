@@ -27,8 +27,11 @@ project(':engine').projectDir = new File(settingsDir, './engine')
 include ':engine_core'
 project(':engine_core').projectDir = new File(settingsDir, './engine/engine_core')
 
-include ':engine_local'
-project(':engine_local').projectDir = new File(settingsDir, './engine/engine_local')
+include ':engine_common'
+project(':engine_common').projectDir = new File(settingsDir, './engine/engine_common')
+
+include ':engine_executor'
+project(':engine_executor').projectDir = new File(settingsDir, './engine/engine_executor')
 
 include ':share'
 project(':share').projectDir = new File(settingsDir, './share')

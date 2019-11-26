@@ -33,6 +33,9 @@ project(':engine_common').projectDir = new File(settingsDir, './engine/engine_co
 include ':engine_executor'
 project(':engine_executor').projectDir = new File(settingsDir, './engine/engine_executor')
 
+include ':engine_app'
+project(':engine_app').projectDir = new File(settingsDir, './engine/engine_app')
+
 include ':share'
 project(':share').projectDir = new File(settingsDir, './share')
 
@@ -50,4 +53,5 @@ project(':share_tools_server_repository').projectDir = new File(settingsDir, './
 
 include ':share_share_api'
 project(':share_share_api').projectDir = new File(settingsDir, './share/share_share_api')
+include 'engine_app'
 
